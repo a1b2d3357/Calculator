@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; margin: 0;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body style="height: 100%; margin: 0;">
+    <div id="wrapper" style="min-height: 100%; background-color: aliceblue;">
+        <div>
+            Welcome!
+        </div>
+        <div>
+            <div id="Calculator">
+                <div id="display">
+                    19
+
+                </div>
+                <div id="seven_to_nine">
+                   <div class="digits">7</div>
+                   <div class="digits">8</div>
+                   <div class="digits">9</div>
+                   <div id="clear_all">A/C</div>
+
+
+                </div>
+                <div id="four_to_six">
+                   <div class="digits">7</div>
+                   <div class="digits">8</div>
+                   <div class="digits">9</div>
+                   <div id="multiply"  class="digits">*</div>
+                   <div id="divide" class="digits">/</div>
+                </div>
+                <div id="zero_to_three" style="display: flex;">
+                    <div id="non_operators" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+                        <div class="1to3" style="display: flex;">
+                            <div class="digits" style="height: 80px;">1</div>
+                            <div class="digits" style="height: 80px;">2</div>
+                            <div class="digits" style="height: 80px;">3</div>
+                        </div>
+                        <div class="0" style="border: 2px solid black;  height: 80px; margin: 5px; width: 480px;">0</div>
+                    </div>
+                    <div id="operators" style="display: flex; justify-content: space-around; width: 230px; border: 2px solid black;">
+                        <div id="add" style="width: 110px; border: 2px solid black;">+</div>
+                        <div id="neg_and_=" style="width: 110px; border: 2px solid black; display: flex; flex-direction: column; justify-content: space-between;">
+                            <div id="subtract" style="width: 90%; border: 2px solid black; height: 80px;">-</div>
+                            <div id="evaluate" style="width: 90%; border: 2px solid black; height: 80px;">*</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
